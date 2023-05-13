@@ -1,0 +1,56 @@
+* {
+	font-family: ´Josefin´, sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+/* SOLAPA HOVER*/
+/*
+.caja1 {
+	height: 200px;
+	width: 200px;
+	background-color: slateblue;
+	transition: background 1s, height .2s, width 1s; border: .5s;
+	border: 3px solid blue;
+}
+
+.caja1:hover {
+	background: red;
+	height: 300px;
+	width: 300px;
+	border-color: black;
+}
+*/
+/* SOLAPA ACTIVE*/
+/*.caja1 {
+	height: 200px;
+	width: 200px;
+	background-color: slateblue;
+	margin: 25px;
+	transition: all 1s;
+}
+
+.caja1:active {
+	background: blue;
+	width: 600px;
+}
+*/
+
+/* SOLAPA FOCUS*/
+
+.caja1 {
+	margin: 25px;
+	width: 500px;
+	height: 500px;
+}
+
+.caja1 img {
+	height: 100%;
+	width: 100%;
+	border: 2px solid red;
+    object-fit: contain;
+} 
+/* contain se queda con la q mas le coviene 
+   none agranda la resolucion a la medida q es 
+   cover hace q se ajuste
+   scale-down se queda con el valor mas bajo*/
